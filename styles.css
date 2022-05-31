@@ -94,12 +94,6 @@ footer {
   text-align: center;
 }
 
-.ExpandedSupport {
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-}
-
 .supportImage {
   display: flex;
   justify-content: center;

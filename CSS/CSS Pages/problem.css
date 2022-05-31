@@ -79,3 +79,10 @@ footer {
   align-items: center;
 }
   
+.imageRow {
+  flex-direction: row;
+  width: 45%;
+  height: fit-content;
+  justify-content: center;
+  margin: 10rem;
+}

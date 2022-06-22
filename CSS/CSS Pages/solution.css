@@ -47,22 +47,22 @@ div {
 }
 
 .textbox {
+  display: block;
   background-color: #00203fff;
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   flex-direction: column;
-  width: 30%;
+  width: auto;
   padding: 2rem;
-  margin: 10%;
+  margin: 5rem;
   height: fit-content;
   align-content: center;
-  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
-img {
-  float: right;
-  width: 50%;
-  align-items: center;
+.textbox p {
+  font-size: 1.5rem;
 }
 
 p {

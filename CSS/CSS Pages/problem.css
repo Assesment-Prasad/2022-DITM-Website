@@ -95,7 +95,7 @@ footer {
     justify-content: center;
   }
 
-  img {
+  .mediaClass img {
     float: none;
     width: 100%;
   }
@@ -120,5 +120,14 @@ footer {
 
   .navbar ul li a {
     font-size: 0.9rem;
+  }
+
+  .imageRow {
+    flex-direction: column;
+    margin: 5rem;
+  }
+
+  .imageRow img {
+    margin: 0;
   }
 }

@@ -80,11 +80,14 @@ footer {
   align-items: center;
 }
 
+.charts img {
+  width: 50rem;
+}
+
 .charts {
-  margin: 10rem;
+  flex-direction: column;
   justify-content: center;
-  flex-wrap:wrap;
-  width: 80%;
+  padding-inline: 24%;
 }
 
 .form {

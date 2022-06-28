@@ -84,8 +84,12 @@ footer {
   margin: 10rem;
   justify-content: center;
   flex-wrap:wrap;
-  width: 80%;
 }
+
+.charts img {
+  width: 50%;
+}
+
 .form {
   justify-content: center;
   margin: 10rem;
@@ -125,7 +129,11 @@ footer {
   }
   
   .charts {
-    margin:5rem;
-    width: auto;
+    margin:5rem
+  }
+
+  .charts img {
+    flex-direction: column;
+    width: 20rem;
   }
 }

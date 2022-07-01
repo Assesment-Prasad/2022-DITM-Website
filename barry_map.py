@@ -15,4 +15,4 @@ for i, j in zip(photo_locations, descriptions):
 
 
 map.add_child(fg)
-map.save('Barry_Curtis_Park_Litter.html')
+map.save('Barry Curtis Park Litter.html')

@@ -4,10 +4,67 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="CSS/styels.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>DITM Website Siddharth | Home</title>
+    <script>
+      function infoMapButton() {
+          window.alert("This page has no navigation bar. Click the arrow buttons in the top left to go back.")
+      }
+    </script>
   </head>
-  <body>
-    <h1>Hello world</h1>
+  <body id="page">
+    <header>
+      <div class="background-img">
+        <h1>Barry Curtis Park Initiative</h1>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="Pages/problem.html">Problem</a></li>
+          <li><a href="Pages/solution.html">Solution</a></li>
+          <li><a href="Barry Curtis Park Litter.html" onclick="infoMapButton()">Info Map</a></li>
+        </ul>
+      </nav>
+  </header>
+    <div style="flex-direction:column;">
+      <div class="mediaClass">
+        <div class="textbox">
+          <h1>Who are we?</h1>
+          <p>We are a group of students at Ormiston Senior College. We are apart of a digital media class.  
+            As apart of our learning guide, we must choose a community issue and make a website that focuses on that.</p>
+        </div>
+        <img src="Photos/barry-curtis-park-sign.jpg" alt="Barry-Curtis-Park-Sign">
+      </div>
+      <div class="mediaClass">
+        <div class="textbox">
+          <h1>What are we doing?</h1>
+          <p>We plan on dealing with the litter situation in Barry Curtis Park. Specifically, 
+            there is an area that goes from underneath the bridge to Whenua Rd that is full of rubbish. 
+            As an extension, maybe we could also include the empty plot by the medical centre.</p>
+        </div>
+        <img src="/Photos/IS019_Barry-Curtis_01-1600x1194.jpg" alt="North-Barry-Park">
+      </div>
+      <div class="mediaClass">
+        <div class="textbox">
+          <h1>What is our solution?</h1>
+          <p>Our solution largely revolves around getting the council to develop the park more and gathering volunteers. 
+            More details on solution page.</p>
+        </div>
+        <img src="/Photos/IGL_RPAS_181106_4_Changingroom_1_1024_575.jpeg" alt="Barry-pavilion">
+      </div>
+      <div style="justify-content: center;">
+        <div class="support">
+          <h1>Let us know how you feel.</h1>
+          <p>If you would like to help, 
+            click on the image and fill out our survey on how you think we can solve the problem.</p>
+            <a href="https://docs.google.com/forms/d/13df19NEBFzmIMbMix4lpSKm6mKsjMcjdliJ4PyEEpcM/edit">
+              <img src="/Photos/Screenshot 2022-05-27 142007.png" class="supportImage">
+            </a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>DITM Ormiston Senior College</p>
+    </footer>
   </body>
 </html>

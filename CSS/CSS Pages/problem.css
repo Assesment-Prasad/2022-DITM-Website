@@ -60,12 +60,12 @@ div {
 
 .mediaClass img {
   float: right;
-  width: 57.5rem;
+  width: 50%;
   align-items: center;
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 
 footer {

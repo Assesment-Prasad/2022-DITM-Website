@@ -129,7 +129,11 @@ footer {
   }
   
   .charts {
-    margin:5rem;
-    width: auto;
+    margin:5rem
+  }
+
+  .charts img {
+    flex-direction: column;
+    width: 20rem;
   }
 }

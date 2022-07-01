@@ -114,7 +114,7 @@ header .background-img {
   height: 55rem;
   justify-content: center;
   align-items: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: white;
 }
 
@@ -155,5 +155,16 @@ header .background-img {
 
   .navbar ul li a {
     font-size: 0.9rem;
+  }
+
+  header .background-img {
+    height: 20rem;
+  }
+
+  header .background-img h1 {
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    color: black;
   }
 }
